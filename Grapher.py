@@ -2,7 +2,7 @@ import json
 import requests
 import pandas
 import matplotlib.pyplot as plt
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 import matplotlib
 import Dota_data
 
@@ -24,7 +24,7 @@ print(heroes_meme)
 
 
 def graph_heroes_wins(data):
-    data.plot(x="hero_id", y="win", kind="bar" )
+    data.plot.bar(x="hero_id", y=["win","games"], color=["cyan", "magenta"])
     plt.show()
 
 graph_heroes_wins(heroes_meme)
