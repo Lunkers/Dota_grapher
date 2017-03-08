@@ -24,7 +24,7 @@ print(heroes_meme)
 
 
 def graph_heroes_wins(data):
-    data.plot.bar(x="hero_id", y=["win","games"], color=["cyan", "magenta"])
+    data.plot.bar(x="hero_id", y=["win","games"], color=["cyan", "magenta"], title="Lunkers' awful hero stats")
     plt.show()
 
 graph_heroes_wins(heroes_meme)
