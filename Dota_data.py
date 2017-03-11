@@ -31,7 +31,7 @@ heroes_dict = {1:"Anti-mage", 2:"Axe", 3:"Bane", 4: "Bloodseeker",
                98: "Timbersaw", 99: "Bristleback", 100: "Tusk", 101: "Skywrath Mage",
                102: "Abbadon", 103: "Elder Titan", 104: "Legion Commander", 105: "Techies", 106: "Ember Spirit",
                107: "Earth Spirit", 108: "Underlord", 109: "Terrorblade", 110: "Phoenix",
-               111: "Oracle", 112: "Winter Wyvern", 113: "Arc Warden"}
+               111: "Oracle", 112: "Winter Wyvern", 113: "Arc Warden", 114: "Monkey King"}
 
 """for key in heroes_dict:
    print(key, heroes_dict[key])"""
